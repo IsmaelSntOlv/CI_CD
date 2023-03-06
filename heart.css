@@ -1,0 +1,64 @@
+/* Estilos para o body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o header */
+header {
+    background-color: #d1e0ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para o main */
+main {
+    margin: 20px;
+}
+
+main h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin: 0;
+    line-height: 1.5;
+}
